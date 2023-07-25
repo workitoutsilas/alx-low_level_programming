@@ -15,5 +15,5 @@ while (*s != "\0")
 getThis++;
 s++;
 }
-return (getThis)
+return (getThis);
 }
