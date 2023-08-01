@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ * _memset - ills memory with a constant byte.
+ * @b: constant byte
+ * @s: pointer destination
+ * @n: bytes of memory
+ * Return: Always 0 (Success)
+ */
+
+
+
+char *_memset(char *s, char b, unsigned int n)
+{
+unsigned int i;
+i = 0;
+while (i < n)
+{
+s[i] = b;
+i++;
+}
+return (s);
+}
