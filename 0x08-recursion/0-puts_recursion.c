@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * _puts_recursion - A function that prints a string, followed by a new line.
  * @s: input
