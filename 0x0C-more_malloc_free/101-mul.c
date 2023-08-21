@@ -100,7 +100,7 @@ i = ln1 - 1, j--, addl = 0, ca++, k = lnout - (1 + ca);
 if (j < 0)
 {
 if (nout[0] != '0')
-	break;
+break;
 lnout--;
 free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
 k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
